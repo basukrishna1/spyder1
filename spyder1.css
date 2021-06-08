@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #060a1f;
+}
+#clock
+{
+	
+	margin:5px;
+	display: grid;
+	grid-template-columns: 60px 60px 100px;
+	justify-content: right;
+	border-radius: 8px;
+	grid-gap: 15px ;
+	
+
+}
+.brick{
+	font-family: arial;
+    background: pink;
+	margin: 15px;
+	display: grid;
+	grid-gap: 1px;
+	text-align: center;
+	border-radius: 4px;
+	padding: 8px;
+	font-size: 30px;
+	height: 50px;
+	width: 50px;
+	font-weight: 500;
+    box-shadow: 10px 10px 4px black;
+}
+#hour{
+	background: #2196f3
+}
+
+#min{
+	background: #2196f3
+}
+
+#sec{
+	background: #FF0077
+}
+.time{
+	color: #eee;
+	display: grid;
+	justify-content: center;
+	box-shadow: 5px 5px 6px black inset;
+	font-size: 15px;
+	border-radius: 5px;
+}
